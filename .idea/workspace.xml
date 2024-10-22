@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b83e6b41-65bc-473f-a809-c94c2f7f4648" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jm1024.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/RentalAgreement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/RentalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RentalServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2nPY1erjocIwkLolw9jPHGysyUN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.RentalServiceTest.executor": "Run",
+    "JUnit.RentalServiceTest.testCheckoutChainsawHoliday.executor": "Run",
+    "JUnit.RentalServiceTest.testCheckoutInvalidDiscount.executor": "Run",
+    "JUnit.RentalServiceTest.testCheckoutJackhammerHoliday.executor": "Run",
+    "JUnit.RentalServiceTest.testCheckoutJackhammerIndepenceDay.executor": "Run",
+    "JUnit.RentalServiceTest.testCheckoutJackhammerIndependenceDay.executor": "Run",
+    "JUnit.RentalServiceTest.testCheckoutJackhammerIndependenceDay2020.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/jrmil/IdeaProjects/jm1024/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.RentalServiceTest.testCheckoutJackhammerIndependenceDay2020">
+    <configuration name="RentalServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jm1024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RentalServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalServiceTest.testCheckoutJackhammerIndepenceDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jm1024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RentalServiceTest" />
+      <option name="METHOD_NAME" value="testCheckoutJackhammerIndepenceDay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalServiceTest.testCheckoutJackhammerIndependenceDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jm1024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RentalServiceTest" />
+      <option name="METHOD_NAME" value="testCheckoutJackhammerIndependenceDay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalServiceTest.testCheckoutJackhammerIndependenceDay2020" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jm1024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RentalServiceTest" />
+      <option name="METHOD_NAME" value="testCheckoutJackhammerIndependenceDay2020" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalServiceTest.testCheckoutMultiYearAgreement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jm1024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RentalServiceTest" />
+      <option name="METHOD_NAME" value="testCheckoutMultiYearAgreement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RentalServiceTest.testCheckoutJackhammerIndependenceDay2020" />
+        <item itemvalue="JUnit.RentalServiceTest" />
+        <item itemvalue="JUnit.RentalServiceTest.testCheckoutJackhammerIndependenceDay" />
+        <item itemvalue="JUnit.RentalServiceTest.testCheckoutMultiYearAgreement" />
+        <item itemvalue="JUnit.RentalServiceTest.testCheckoutJackhammerIndepenceDay" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b83e6b41-65bc-473f-a809-c94c2f7f4648" name="Changes" comment="" />
+      <created>1728875968442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728875968442</updated>
+    </task>
+    <servers />
+  </component>
+</project>
