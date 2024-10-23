@@ -1,5 +1,7 @@
 package main.java.model;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
@@ -46,7 +48,7 @@ public class Tool {
                 (chargeHoliday && isHoliday(date));
     }
 
-    private boolean isHoliday(LocalDate date) {
+    private boolean isHoliday(@NotNull LocalDate date) {
         // Check for Independence Day and Labor Day
         LocalDate independenceDay = getIndependenceDay(date.getYear());
         LocalDate laborDay = getLaborDay(date.getYear());

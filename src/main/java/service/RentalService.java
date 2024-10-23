@@ -5,6 +5,7 @@ import java.time.LocalDate;
 
 import main.java.model.RentalAgreement;
 import main.java.model.Tool;
+import org.jetbrains.annotations.Nullable;
 
 
 public class RentalService {
@@ -32,6 +33,7 @@ public class RentalService {
         return new RentalAgreement(tool, rentalDays, checkoutDate, discountPercent);
     }
 
+    @Nullable
     private Tool findToolByCode(String toolCode) {
         for (Tool tool : tools) {
             if (tool.getCode().equalsIgnoreCase(toolCode)) {
@@ -40,6 +42,5 @@ public class RentalService {
         }
         return null;
     }
-
 
 }

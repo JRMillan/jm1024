@@ -3,8 +3,6 @@ package main.java.model;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 import java.time.format.DateTimeFormatter;
 import java.text.NumberFormat;
 
@@ -23,7 +21,6 @@ public class RentalAgreement {
     private final int discountPercent;
     private final BigDecimal discountAmount;
     private final BigDecimal finalCharge;
-    private final List<LocalDate> listOfChargeableDays = new ArrayList<>();
     private final DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("MM/dd/yy");
     private final NumberFormat decimalFormatter = NumberFormat.getCurrencyInstance();
 
@@ -49,7 +46,6 @@ public class RentalAgreement {
             LocalDate date = checkoutDate.plusDays(i);
             if (tool.isChargeable(date)) {
                 chargeableDays++;
-                listOfChargeableDays.add(date);
             }
         }
         return chargeableDays;
@@ -118,9 +114,4 @@ public class RentalAgreement {
         return finalCharge;
     }
 
-    public void getListOfChargeableDays() {
-        for (int i = 0; i < listOfChargeableDays.size(); i++) {
-            System.out.println(listOfChargeableDays.get(i));
-        }
-    }
 }
